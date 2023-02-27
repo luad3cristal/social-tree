@@ -1,3 +1,16 @@
 * {
-    background-color: white;
+  margin: 0;
+}
+:root {
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+}
+
+body {
+  background-color: var(--body-bg-color);
+}
+
+div #container {
+  margin: 0 auto;
+  width: 10px;
 }
