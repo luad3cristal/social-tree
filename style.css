@@ -1,5 +1,7 @@
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 :root {
   --body-bg-color: #faf7fd;
@@ -16,19 +18,29 @@ body * {
 }
 
 #container {
+  width: 100%;
+  max-width: 588px;
+  margin: 56px auto 0px;
+  padding: 0 24px;
+}
+
+#profile {
   text-align: center;
 }
 
 #profile img {
-  width: 112px;
+  width: 170px;
+
   border-radius: 50%;
+  border: 1px solid white;
+  outline: 2px solid var(--purple);
 }
 
 #profile p {
   font-weight: 300;
   line-height: 24px;
 
-  margin-top: 15px;
+  margin: 15px 0px;
 }
 
 ul {
@@ -36,12 +48,32 @@ ul {
 
   display: flex;
   flex-direction: column;
+  gap: 16px;
+
+  padding: 8px 0;
+}
+
+ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 16px 24px;
+
+  border: 2px solid var(--purple);
+  border-radius: 4px;
+
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#social-links {
+  display: flex;
+  justify-content: center;
 
   padding: 24px 0;
 }
 
-ul li a {
-
-  border: 2px solid var(--purple);
-  border-radius: 4px;
+#social-links a {
+  padding: 10px;
 }
