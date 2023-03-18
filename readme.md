@@ -1,4 +1,4 @@
-<h1 align="center"> Habits </h1>
+<h1 align="center"> Social Tree </h1>
 
 <p align="center">
 Social Tree foi um desafio desenvolvido pela Rocketseat para developers que estão começando na programação web </br>
